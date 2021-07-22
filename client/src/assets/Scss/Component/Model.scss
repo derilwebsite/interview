@@ -1,0 +1,29 @@
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 6px 6px 12px #9e9e9e, -6px -6px 12px #ffffff;
+
+  &__wrapper{
+    padding: 20px;
+  }
+
+  &__form{
+      text-align: center;
+    
+      form{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+      }
+      form >div{
+          margin-bottom: 10px;
+      }
+  }
+}
